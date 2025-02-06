@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    /* background-image: url(../Images/Illustration/home-banner-01.jpg); */
+    background-image:linear-gradient(to bottom,rgba(74, 67, 67, 0.75),rgba(8, 7, 7, 0.75)), 
+                      url(../Images/Illustration/home-banner-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.icon{
+    width: 150px;
+    height: 50px;
+}
+.menu{
+    background-color: #F34263;
+}
+.text{
+    color: white;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.dash{
+    width: 60px;
+    height: 2px;
+    background-color: #F34263;
+}
+.text p{
+    font-size: 18px;
+}
+.text h1{
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+}
+h1{
+    font-family: "Playfair Display", serif;
+}
+.text button{
+    background-color: #F34263;
+    padding: 15px;
+    width: 70%;
+    border: 2px solid #F34263;
+    color: white;
+}
+.div1{
+    background-color: #151413;
+    color: white;
+    text-align: center;
+    height: 350px;
+}
+.about{
+    text-align: center;
+}
+.aboutme{
+    height: 250px;
+}
+.about1{
+    background-color:#151413;
+    color: white;
+    height: 450px;
+    padding: 10px;
+
+}
+.about1 button{
+    background-color: #F34263;
+    border: 2px solid #F34263;
+    color: white;
+    width: 60%;
+    height: 10%;
+}
+.about img{
+    width: 100%;
+}
+.services{
+    color: white;
+}
+.services img{
+    width: 100%;
+}
+.service1{
+    background-color: #151413;
+    height: 580px;
+    padding: 10px;
+}
+.service1 button{
+    background-color: #F34263;
+    border: 2px solid #F34263;
+    color: white;
+    width: 60%;
+    height: 10%;
+}
+.service1 p{
+    text-align: center;
+}
+.service1 h1{
+    font-size: 35px;
+}
+.feedback{
+    background-color: #151413;
+    color: white;
+    padding: 20px;
+}
+.feedback{
+    text-align: center;
+} 
+.person1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../Images/Illustration/testimonial1-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: circle(50% at 50% 50%);
+}
+.person2{
+    width: 70px;
+    height: 70px;
+    background-image: url(../Images/Illustration/testimonial2-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: circle(50% at 50% 50%);
+}
+.person3{
+    width: 70px;
+    height: 70px;
+    background-image: url(../Images/Illustration/testimonial3-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: circle(50% at 50% 50%);
+}
+.person4{
+    width: 70px;
+    height: 70px;
+    background-image: url(../Images/Illustration/testimonial4-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: circle(50% at 50% 50%);
+}
+.footer{
+    background-image:linear-gradient(rgba(7, 7, 7, 0.75),rgba(7, 7, 7, 0.75)), 
+                      url(../Images/Background/footer-makeup-banner.jpg);
+    /* background-image: linear-gradient(black,red),url(../Images/Background/footer-makeup-banner.jpg); */
+    /* background-image: url(../Images/Background/footer-makeup-banner.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    height: 600px;
+}
+.footer h2{
+    font-family: "Playfair Display", serif;
+}
+.footer button{
+    background-color: #F34263;
+    border: 2px solid #F34263;
+    color: white;
+    width: 80%;
+    height: 12%;
+}
+
+@media(min-width:768px){
+    
+    .text h1{
+        font-size: 50px;
+    }
+    .text button{
+        width: 30%;
+    }
+    .dash{
+        width: 70px;
+    }
+    .div1{
+        width: 100%;
+        height: 150px;
+    }
+    .aboutme{
+        width: 50%;
+    }
+    .about img{
+        width: 50%;
+    }
+    .about1{
+        padding: 65px;
+    }
+    .about1 button{
+        width: 30%;
+        height: 15%;
+    }
+    .service1 button{
+        width: 30%;
+        height: 15%;
+    }
+    .service1{
+        height: 500px;
+        padding: 65px;
+    }
+    .feedback{
+        padding: 30px;
+    }
+    .feedback1{
+        width: 45%;
+    }
+    .footer{
+        padding: 30px;
+        height: 550px;
+    }
+    .footer h2{
+        font-size: 40px;
+    }
+    .footer button{
+        width: 35%;
+    }
+}
+@media(min-width:992px){
+    .icon{
+        width: 190px;
+        height: 60px;
+    }
+    .head{
+        height: 600px;
+    }
+    /* nav{
+        width: 50%;
+        height: 50px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;       
+        font-size: 16px;
+    } */
+    .text h1{
+        font-size:80px;
+    }
+    .text button{
+        width: 25%;
+    }
+    .dash{
+        width: 100px;
+    }
+    .footer button{
+        width: 25%;
+    }
+}

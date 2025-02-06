@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<body>
+    <div class="head">
+        <nav>
+            <header class="w-100 container p-3">
+                <section class="d-flex justify-content-between align-items-center">
+                    <span>
+                        <img src="./Images/Illustration/site-logo-free-img.png" class="icon" alt="">                    
+                    </span>
+                    <span class=" menu d-lg-none p-1" data-bs-toggle="offcanvas" data-bs-target="#offcanvastop">
+                        <i class="text-light bi bi-list h2"></i>
+                    </span>
+                    <ul class="d-none d-lg-block d-lg-flex justify-content-around w-50 h-25 list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-light">Home</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Services</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">About</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Pricing</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Contact</a></li>
+                    </ul>
+                </section>
+            </header>
+        </nav>
+
+        <div class="offcanvas offcanvas-top bg-light position-absolute h-75" id="offcanvastop">
+            <div class="offcanvas-header">
+                <button type="button" class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none text-light">Home</a></li><hr class="text-light">
+                    <li><a href="#" class="text-decoration-none text-light">Services</a></li><hr class="text-light">
+                    <li><a href="#" class="text-decoration-none text-light">About</a></li><hr class="text-light">
+                    <li><a href="#" class="text-decoration-none text-light">Pricing</a></li><hr class="text-light">
+                    <li><a href="#" class="text-decoration-none text-light">Contact</a></li><hr class="text-light">
+                </ul>
+            </div>
+        </div>
+        
+        <!-- <div class="d-flex justify-content-between p-3">
+            <img src="./Images/Illustration/site-logo-free-img.png" class="icon" alt="">
+            <img class="menu d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" src="./Images/Illustration/main-menu.png" alt="" >
+    
+            <div class="h-50 offcanvas offcanvas-top" data-bs-scroll="true" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>  
+                <div class="navbar offcanvas-body ">
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">About</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <nav class="d-lg-flex">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div> -->
+
+        <div class="text">
+            <p>Get A Classy Look with Amanda</p>
+            <h1>It's Your Shine Time</h1>
+            <div class="dash"></div>
+            <button type="button">BOOK APPOINTMENT</button>
+        </div>
+    </div>
+
+    <div class="div1 p-3 d-flex flex-column flex-md-row justify-content-around justify-content-center align-items-center">
+        <div class="d-md-flex">
+            <img src="./Images/Illustration/phone.PNG" alt="" width="30px" height="30px">
+            <p>123-456-789</p>
+        </div>
+        <div class="d-md-flex">
+            <img src="./Images/Illustration/email.PNG" alt="" width="30px" height="30px">
+            <p>contact@example.com</p>
+        </div>
+        <div class="d-md-flex">
+            <img src="./Images/Illustration/map.PNG" alt="" width="30px" height="30px">
+            <p>Fifth Avenue, New York </p>
+        </div>
+    </div>
+
+    <div class="about h-100">
+        <div class=" d-flex flex-column flex-md-row justify-content-around justify-content-center align-content-center align-items-center">
+            <div class="aboutme d-flex flex-column justify-content-center align-items-center gap-3">
+                <h1 style="font-size: 35px;">About Me</h1>
+                <div class="dash"></div>
+            </div>
+            <img src="./Images/Background/makeup-home-03.jpg" alt="">
+        </div>
+        <div class="about1 d-flex flex-column justify-content-center align-items-center gap-4">
+            <h1>Amanda Brownn</h1>
+            <p>Ut rutrum scelerisque tortor, ac tempor tortor feugiat vitae. Etiam varius erat at tristique tristique. Maecenas convallis, nisi at iaculis scelerisque, arcu leo viverra mauris, quis semper nisi nisi ut tellus. Suspendisse ut massa ac lacus fringilla ultrices ut id leo. Aliquam velit eros, feugiat id faucibus facilisis, cursus vel tellus. </p>
+            <button type="button p-4">KNOW MORE</button>
+        </div>
+    </div>
+
+    <div class="services">
+        <img src="./Images/Background/makeup-home-01.jpg" alt="">
+        <div class="service1 d-flex flex-column justify-content-center align-items-center gap-3">
+            <h4>Services</h4>
+            <div class="dash"></div>
+            <h1>Makeup</h1>
+            <p>Ut rutrum scelerisque tortor, ac tempor tortor feugiat vitae. Etiam varius erat at tristique tristique. Maecenas convallis, nisi at iaculis scelerisque, arcu leo viverra mauris, quis semper nisi nisi ut tellus. Suspendisse ut massa ac lacus fringilla ultrices ut id leo. Aliquam velit eros, feugiat id faucibus facilisis, cursus vel tellus. </p>
+            <button type="button p-4">KNOW MORE</button>
+        </div>
+
+        <img src="./Images/Background/makeup-home-02.jpg" alt="">
+        <div class="service1 d-flex flex-column justify-content-center align-items-center gap-3">
+            <h4>Services</h4>
+            <div class="dash"></div>
+            <h1>Hair Styling</h1>
+            <p>Ut rutrum scelerisque tortor, ac tempor tortor feugiat vitae. Etiam varius erat at tristique tristique. Maecenas convallis, nisi at iaculis scelerisque, arcu leo viverra mauris, quis semper nisi nisi ut tellus. Suspendisse ut massa ac lacus fringilla ultrices ut id leo. Aliquam velit eros, feugiat id faucibus facilisis, cursus vel tellus. </p>
+            <button type="button p-4">KNOW MORE</button>
+        </div>              
+    </div>
+
+    <div class="feedback">
+        <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+            <img src="./Images/Illustration/text.PNG" alt="" width="80px" height="80px">
+            <h1>What They Say</h1>
+            <div class="dash"></div>
+        </div><br><br>
+        <div class="d-flex flex-column flex-md-row flex-md-wrap gap-5 text-start">
+            <div class="feedback1">
+                <img src="./Images/Illustration/star.PNG" alt="">
+                <p>Suspendisse ut massa ac lacus fringilla ultrices ut id leo. Aliquam velit eros, feugiat id faucibus facilisis, cursus vel tellus.</p>
+                <div class="d-flex gap-3">
+                    <div class="person1"></div>
+                    <div class="d-flex flex-column">
+                        <h5>Diana Black</h5>
+                        <h6>Actress</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback1">
+                <img src="./Images/Illustration/star.PNG" alt="">
+                <p>Suspendisse ut massa ac lacus fringilla ultrices ut id leo. Aliquam velit eros, feugiat id faucibus facilisis, cursus vel tellus.</p>
+                <div class="d-flex gap-3">
+                    <div class="person2"></div>
+                    <div class="d-flex flex-column">
+                        <h5>Jane Brooks</h5>
+                        <h6>Model</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback1">
+                <img src="./Images/Illustration/star.PNG" alt="">
+                <p>Suspendisse ut massa ac lacus fringilla ultrices ut id leo. Aliquam velit eros, feugiat id faucibus facilisis, cursus vel tellus.</p>
+                <div class="d-flex gap-3">
+                    <div class="person3"></div>
+                    <div class="d-flex flex-column">
+                        <h5>Mitha Frank</h5>
+                        <h6>Local Model</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback1">
+                <img src="./Images/Illustration/star.PNG" alt="">
+                <p>Suspendisse ut massa ac lacus fringilla ultrices ut id leo. Aliquam velit eros, feugiat id faucibus facilisis, cursus vel tellus.</p>
+                <div class="d-flex gap-3">
+                    <div class="person4"></div>
+                    <div class="d-flex flex-column">
+                        <h5>Tanya Parker</h5>
+                        <h6>Entrepreneur</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer d-flex flex-column justify-content-center align-items-center gap-5">
+        <h2>GET 10% DISCOUNT ON YOUR FIRST VISIT!</h2>
+        <p>Ut rutrum scelerisque tortor, ac tempor tortor feugiat vitae. Etiam varius erat at tristique tristique. Maecenas convallis, nisi at iaculis scelerisque, arcu leo viverra mauris, quis semper nisi nisi ut tellus.</p>
+        <button type="button">CALL NOW: 123-456-789</button>
+        <div class="d-md-flex justify-content-md-between w-100">
+            <p>Copyright &copy; 2024 Makeup Artist Studio</p>
+            <p>Powered by Makeup Artist Studio</p>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
